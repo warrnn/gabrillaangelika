@@ -1,0 +1,47 @@
+body {
+  background-color: #1b262c;
+}
+#gab1 {
+  filter: drop-shadow(0 0 0.5rem #0f4c75) grayscale(100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.name {
+  font-family: "Mate SC", serif;
+  font-weight: 600;
+  color: #bbe1fa;
+  font-size: 10vw;
+}
+.parallax {
+  position: relative;
+  height: auto;
+}
+.content {
+  position: relative;
+  height: auto;
+  background-color: #bbe1fa;
+}
+.textTransition {
+  color: rgba(27, 38, 44, 0);
+}
+.greetings {
+  font-family: "Mate SC", serif;
+  font-weight: 500;
+  font-size: 4vw;
+}
+.projects {
+  font-family: "Mate SC", serif;
+  font-weight: 500;
+  font-size: 4vw;
+}
+a, #copyright{
+  transition: ease-in-out 0.5s;
+}
+a:hover, #copyright:hover{
+  transform: scale(1.5);
+  transition: ease-in-out 0.5s;
+  color: #0F4C75;
+}
