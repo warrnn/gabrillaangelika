@@ -14,7 +14,6 @@ body {
   font-weight: 600;
   color: #bbe1fa;
   font-size: 10vw;
-  user-select: none;
 }
 .parallax {
   position: relative;
@@ -31,12 +30,12 @@ body {
 .greetings {
   font-family: "Mate SC", serif;
   font-weight: 500;
-  font-size: 4vw;
+  font-size: 2em;
+  text-align: center;
 }
-.projects {
+.value {
   font-family: "Mate SC", serif;
   font-weight: 500;
-  font-size: 4vw;
 }
 a, #copyright{
   transition: ease-in-out 0.5s;
@@ -45,4 +44,14 @@ a:hover, #copyright:hover{
   transform: scale(1.5);
   transition: ease-in-out 0.5s;
   color: #0F4C75;
+}
+.value .font-bold {
+  font-weight: 700;
+  font-size: 3rem;
+}
+ol {
+  font-size: 1.5rem;
+}
+footer {
+  font-size: larger;
 }
