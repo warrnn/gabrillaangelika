@@ -49,6 +49,9 @@ a:hover, #copyright:hover{
   font-weight: 700;
   font-size: 3rem;
 }
+li {
+  padding-top: 15px;
+}
 ol {
   font-size: 1.5rem;
 }
